@@ -19,7 +19,7 @@
 **智能体部署方案：** 推荐 Claude Code 或 Cursor（Agent 模式）
 
 ```
-1. git clone https://github.com/sH3sbrOKen/dot-memory-chinajoy2026.git
+1. git clone https://github.com/sH3sbrOKen/dot-memory.git
 2. 用 Claude Code 或 Cursor 打开该目录
 3. 对 Agent 说：你好
 ```

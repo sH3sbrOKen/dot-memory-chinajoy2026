@@ -31,7 +31,7 @@ Indie game / Exhibiting at 2026 ChinaJoy Next Play
 **Agent mode (recommended):** Claude Code or Cursor (Agent mode)
 
 ```
-1. git clone https://github.com/sH3sbrOKen/dot-memory-chinajoy2026.git
+1. git clone https://github.com/sH3sbrOKen/dot-memory.git
 2. Open the directory with Claude Code or Cursor
 3. Say to the Agent: hello
 ```
