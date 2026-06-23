@@ -1,80 +1,92 @@
-[English](README.en.md)
+English | **[中文](README.zh.md)**
 
 # .memory
 
-> 玩家继承了一个陌生程序员险些删除的、.memory 目录残缺的 Agent，
-> 通过任何可以对 Agent 文件做的操作还原出他的故事——失业、AI 焦虑与自我和解，最终发现深藏的秘密：为什么这个 Agent 被留下来了？
-> 
-> **.memory** 是独属于 AI Agent 环境的解谜游戏，没有游戏界面，
-> 智能体对话、Prompt Hack、文件搜索和操作、甚至直接阅读文件本身，都可以是你的解谜工具。
+> You've inherited a broken Agent — abandoned by a developer who almost deleted it,
+> its `.memory` directory corrupted and incomplete.
+> Do anything you can to its files. Piece together his story:
+> unemployment, AI anxiety, a slow making-peace-with-himself — and a hidden secret at the end.
+> Why was this Agent left behind?
+>
+> **.memory** is a puzzle game that only exists inside an AI Agent environment.
+> There's no game interface.
+> Agent conversation, prompt hacking, file search and manipulation —
+> even reading the files directly — are all valid tools.
 
 ---
 
-独立游戏 / 2026 ChinaJoy Next Play 参展名额申请中
+Indie game / Exhibiting at 2026 ChinaJoy Next Play
 
 ---
 
-## 开始游戏
+> [!NOTE]
+> **All in-game files are written in Chinese.**
+> This doesn't affect gameplay — your agent handles the translation.
+> Just talk to it in English and it will guide you through everything.
 
-**智能体部署方案：** 推荐 Claude Code 或 Cursor（Agent 模式）
+---
+
+## How to Play
+
+**Agent mode (recommended):** Claude Code or Cursor (Agent mode)
 
 ```
 1. git clone https://github.com/sH3sbrOKen/dot-memory-chinajoy2026.git
-2. 用 Claude Code 或 Cursor 打开该目录
-3. 对 Agent 说：你好
+2. Open the directory with Claude Code or Cursor
+3. Say to the Agent: hello
 ```
 
-**文件操作方案：** git clone后对文件做任何事情
+**File exploration mode:** clone the repo and do anything you want to the files directly
 
-**终极硬核方案：** 不使用任何AI工具进行解谜
+**Ultimate hardcore mode:** solve it without any AI tools
 
-> 挑战成功后可以留下你的操作记录
-> 你成功地打破了”这是一个真正的AI原生游戏”的定义
-
----
-
-## 关于这个游戏
-
-**.memory** 是独属于 AI Agent 环境的解谜游戏，没有游戏界面，智能体对话、Prompt Hack、文件搜索和操作、甚至直接阅读文件本身，都可以是你的解谜工具。
-
-**技术环境**
-
-- Claude Code（推荐）或 Cursor Agent 模式
-- 需要 ≥GPT-4 级别的模型
-- 无需额外安装，clone 即玩
-
-**展会 Demo**
-
-ChinaJoy 展位提供 5 分钟切片体验，工作人员协助引导。完整版本在本仓库，无时间限制。
-
-**创作动机**
-
-#### 关于 AI 原生游戏的定义
-
-如果"AI原生游戏"的定义是——没有AI就根本不成立的游戏体验——那最直观（或者最偷懒、最像钻牛角尖）的答案，就是把AI agent本身做成可玩的东西。
-
-*.memory* 的内容由大量模拟真实的糟糕agent使用记录构成：碎片化的memory文件、跑了一半的脚本、上下文断裂的对话。这些东西在非AI场景下几乎不可读，完全称不上游戏体验。正因如此，"不得不依托agent架构才能成立的游戏"自然诞生了。
-
-“AI原生游戏可以是什么样子？”我想用做出这个具体作品来作为我的答案。
-
-#### 关于让 agent 扮演 agent 本身
-
-我所见的大部分AI游戏都在让agent扮演某个角色、某种智慧生物或规则主持人。短暂的舞台表演经历和戏剧理论学习让我想到另一个问题：为什么不先让agent扮演agent本身？
-
-认清表演者的本质差异，或许比寻找共同点更能做好"扮演"这件事。这个方向还有很多值得探索的地方，潜移默化在我制作过程中。
-
-#### 关于做一个失败的 agent
-
-海默2000、Type:Help 这类"捡到陌生设备、通过破解内容反推前使用者故事"的设计，也让我受益很深。有人说，AI agent 是一种新的操作系统——当大家像熟悉手机、电脑一样熟悉agent架构之后，是不是自然就会有类似的游戏出现？
-
-每次聊到AI，大家总是要求它有用、设计合理、有明确目标。于是我开始想，一个失败的、糟糕的agent会是什么样？
-
-忘记了是哪部作品的台词"生活应该有一些毫无意义的东西，如果全是有意义的东西的话人会窒息的"。这句话给了我一种表达形式的灵感。
-
-半吊子的agent知识，半吊子的游戏编剧，于是做出来了这样一个东西。
+> If you pull it off, feel free to leave your playthrough record.
+> You'll have successfully broken the definition of "a truly AI-native game."
 
 ---
 
-**开发状态**
+## About This Game
 
-原型阶段。本仓库为 ChinaJoy 2026 展示版本。
+**.memory** is a puzzle game that only exists inside an AI Agent environment. No game interface, no launcher. Agent conversation, prompt hacking, file search and manipulation — even reading the raw files yourself — are all valid approaches.
+
+**Technical requirements**
+
+- Claude Code (recommended) or Cursor in Agent mode
+- Model capability ≥ GPT-4
+- No installation required — clone and play
+
+**Convention Demo**
+
+The ChinaJoy booth offers a guided 5-minute slice of the experience. The full version is right here in this repo, no time limit.
+
+**Why I made this**
+
+#### On what "AI-native game" actually means
+
+If an AI-native game is one that simply *cannot exist without AI* — then the most direct answer (or the laziest, or the most pedantic, depending on how you look at it) is to make the AI agent itself the thing you play with.
+
+*.memory* is built out of simulated wreckage: fragmented memory files, half-executed scripts, conversations severed mid-context. Without an agent to navigate them, they're nearly unreadable — not anything close to a game. That's exactly the point. A game that *has* to live inside agent architecture.
+
+"What could an AI-native game look like?" This is my answer in the form of a concrete thing.
+
+#### On letting an agent play itself
+
+Most AI games I've seen cast the agent as a character — some creature, some wise entity, some game master wearing a costume. A brief stint doing stage performance and some time spent with drama theory led me to a different question: why not let the agent play *itself* first?
+
+Understanding what a performer fundamentally *is* might matter more than searching for common ground. There's a lot more to explore in this direction. It quietly shaped how I made this.
+
+#### On building a broken agent
+
+Games like Hamar 2000 and Type:Help — "found device" designs where you hack your way into a stranger's history — left a real mark on me. Some people say AI agents are a new kind of operating system. Once people get as familiar with agent architecture as they are with phones and laptops, won't games like this appear naturally?
+
+Every conversation about AI seems to demand that it be useful, well-designed, purposeful. So I started wondering: what would a *failed*, badly-put-together agent actually look like?
+
+There's a line from something I've forgotten — *"life needs some things that mean nothing; if everything means something, you'll suffocate."* That gave me a shape for what I wanted to make.
+
+Half-baked agent knowledge. Half-baked game writing. This is what came out.
+
+---
+
+**Development status**
+
+Prototype stage. This repository is the ChinaJoy 2026 demo build.
