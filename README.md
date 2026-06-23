@@ -1,3 +1,5 @@
+[English](README.en.md)
+
 # .memory
 
 > 玩家继承了一个陌生程序员险些删除的、.memory 目录残缺的 Agent，
