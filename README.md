@@ -10,7 +10,7 @@
 
 ## 开始游戏
 
-**智能体部署方案：** 推荐Claude Code 或 Cursor（Agent 模式）
+**智能体部署方案：** 推荐 Claude Code 或 Cursor（Agent 模式）
 
 ```
 1. git clone https://github.com/sH3sbrOKen/dot-memory-chinajoy2026.git
@@ -20,9 +20,10 @@
 
 **文件操作方案：** git clone后对文件做任何事情
 
-**终极硬核方案：** 不使用任何AI工具进行解谜 
-挑战成功后可以留下你的操作记录
-你成功的打破了“这是一个真正的AI原生游戏”的定义
+**终极硬核方案：** 不使用任何AI工具进行解谜
+
+> 挑战成功后可以留下你的操作记录
+> 你成功地打破了”这是一个真正的AI原生游戏”的定义
 
 ---
 
