@@ -4,13 +4,13 @@
 
 ---
 
-独立游戏 / 2026 ChinaJoy Next Play 参展作品
+独立游戏 / 2026 ChinaJoy Next Play 参展名额申请中
 
 ---
 
 ## 开始游戏
 
-**需要：** Claude Code 或 Cursor（Agent 模式）
+**智能体部署方案：** 推荐Claude Code 或 Cursor（Agent 模式）
 
 ```
 1. git clone https://github.com/sH3sbrOKen/dot-memory-chinajoy2026.git
@@ -18,11 +18,17 @@
 3. 对 Agent 说：你好
 ```
 
+**文件操作方案：** git clone后对文件做任何事情
+
+**终极硬核方案：** 不使用任何AI工具进行解谜 
+挑战成功后可以留下你的操作记录
+你成功的打破了“这是一个真正的AI原生游戏”的定义
+
 ---
 
 ## 关于这个游戏
 
-**.memory** 是独属于 AI Agent 环境的解谜游戏，没有游戏界面，智能体对话、文件搜索和操作、甚至直接阅读文件本身，就可以是你的解谜工具。
+**.memory** 是独属于 AI Agent 环境的解谜游戏，没有游戏界面，智能体对话、Prompt Hack、文件搜索和操作、甚至直接阅读文件本身，都可以是你的解谜工具。
 
 **技术环境**
 
