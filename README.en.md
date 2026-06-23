@@ -17,7 +17,8 @@ Indie game / Exhibiting at 2026 ChinaJoy Next Play
 
 ---
 
-> **Note: all in-game files are written in Chinese.**
+> [!NOTE]
+> **All in-game files are written in Chinese.**
 > This doesn't affect gameplay — your agent handles the translation.
 > Just talk to it in English and it will guide you through everything.
 
